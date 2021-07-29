@@ -1,0 +1,20 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#hour{
+    color: cyan;
+    font-size: 55;
+}
+
+#min{
+    color: cyan;
+    font-size: 55;
+}
+
+#suffix{
+    color: rgb(238, 156, 170);
+    font-size: 72;
+}

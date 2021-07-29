@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title></title>
+  </head>
+  <body style="text-align:center;">
+    <header></header>
+    <main>
+      <div class="tooltip">
+        <h1>Welcome</h1>
+        <span class="tooltiptext">Welcome to my WebPage</span>
+      </div>
+      <br>
+      <br>
+      <label for="rows">Enter the number of rows</label>
+      <input type="number" value="0" id="rows"><br><br>
+      <label for="columns">Enter the number of columns</label>
+      <input type="number" value="0" id="columns"><br><br>
+      <button id="button" onclick="generateTable()">Generate Table</button>
+      <button id="button" onclick="clearTable()">Clear</button>
+      <br>
+      <h1></h1>
+      <table id = "tables">
+      </table>
+    </main>
+    <footer></footer>
+  </body>
+</html>
